@@ -1,6 +1,4 @@
-import { Document } from 'mongoose';
-
-export interface IUserRatingUpdate extends Document {
+export interface IUserRatingUpdate {
     rating?: number;
     comment?: string;
 }
